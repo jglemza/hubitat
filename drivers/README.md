@@ -1,12 +1,14 @@
-# Mattermost
+# Hubitat Drivers
+
+## Mattermost
 
 This is a quick and dirty driver to send messages to a [Mattermost](https://mattermost.com/) server via an [incoming webhook](https://developers.mattermost.com/integrate/webhooks/incoming/). 
 
-## Requirements
+### Requirements
 
 * Mattermost Incoming Webhook URL
 
-## Installation
+### Installation
 
 * Drivers Code -> New Driver -> Import URL: https://github.com/jglemza/hubitat/raw/main/drivers/mattermost.groovy
 * Go to Devices section and + Add Device -> Virtual
