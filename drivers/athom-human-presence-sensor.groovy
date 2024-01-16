@@ -1,6 +1,6 @@
 /**
  *  MIT License
- *  Copyright 2022 Jonathan Bradshaw (jb@nrgup.net)
+ *  Copyright 2022 Joshua Glemza
  *
  *  Permission is hereby granted, free of charge, to any person obtaining a copy
  *  of this software and associated documentation files (the "Software"), to deal
@@ -194,7 +194,7 @@ void parseState(final Map message) {
                 updateAttribute('illuminance', message.state as Integer, 'lx')
             }
             break
-        case state.entities['mmwave']:
+        case state.entities['mmwave_switch']:
             // Millimeter wave radar sensor
             if (message.hasState) {
                 updateAttribute('mmwave', message.state ? 'active' : 'inactive')
